@@ -1,4 +1,10 @@
 package com.example.ex3.ex3.repository;
 
-public interface PedidosRepository {
+import com.example.ex3.ex3.entity.Pedidos;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface PedidosRepository extends JpaRepository<Pedidos, Long> {
+
 }

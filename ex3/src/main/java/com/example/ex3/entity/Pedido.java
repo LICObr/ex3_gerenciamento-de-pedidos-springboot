@@ -22,6 +22,8 @@ public class Pedido {
     @Column(name = "status_pedido")
     private String status;
 
+    public Pedido() {
+    }
 
     public Long getId() {
         return id;
